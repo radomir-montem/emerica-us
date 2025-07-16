@@ -1,0 +1,90 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "contact": {
+      "type": "index__contact-form",
+      "blocks": {
+        "0943eae7-73e7-413a-ab5b-fd6a3f2d77a0": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>CUSTOMER SERVICE CONTACT FORM</strong></p>"
+          }
+        },
+        "819ccdac-5c74-43bc-b47b-4b11cc82382a": {
+          "type": "textfield",
+          "settings": {
+            "label": "First Name / Last Name",
+            "required": true
+          }
+        },
+        "a8554837-a77c-4c87-8398-15cb200375c5": {
+          "type": "email",
+          "settings": {
+            "label": "Email"
+          }
+        },
+        "7fcf1e30-998a-4566-af6e-a77507f75146": {
+          "type": "textfield",
+          "settings": {
+            "label": "Order Number",
+            "required": true
+          }
+        },
+        "433fc484-88c1-4ec8-8a8d-fc063586f91e": {
+          "type": "textarea",
+          "settings": {
+            "label": "Tell Us How We Can Help You",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "0943eae7-73e7-413a-ab5b-fd6a3f2d77a0",
+        "819ccdac-5c74-43bc-b47b-4b11cc82382a",
+        "a8554837-a77c-4c87-8398-15cb200375c5",
+        "7fcf1e30-998a-4566-af6e-a77507f75146",
+        "433fc484-88c1-4ec8-8a8d-fc063586f91e"
+      ],
+      "settings": {
+        "title": "HOW DO I CONTACT EMERICA ONLINE CUSTOMER SERVICE?",
+        "content_text": "<p><strong>Please check that your order size, address and payment information are all submitted correctly before checkout. Unfortunately, we are unable to change or cancel any order, once submitted it is immediately transmitted to an automated processing system.</strong></p><p>This provides the fastest method for receiving your order. As such, order cancellations and modifications are not possible, even if the order has not been marked as shipped.</p><p>We offer an easy returns process if you'd like to send your item back once you receive it. Unfortunately, we do not offer exchanges, but will be happy to get you a refund to replace your order. </p><p><a href=\"https://emerica.com/pages/refund-policy\" title=\"Refund Policy\"><strong>To begin a return request for a recent purchase please click here</strong></a></p><p>Please use our customer service contact form to email our team for further assistance. Currently we are experiencing a minimum 1-2 business day response time for all customer service related inquiries, and a 10 - 21 day processing time for returns.</p><p><strong>WHERE ARE YOUR OFFICES LOCATED?</strong></p><p>Our U.S. headquarters is located in Orange County California.</p><p>Nidecker Group Inc. | 26921 Fuerte Dr. | Lake Forest Ca 92630</p><p>Please Note: Our headquarters is closed to the general public, for returns please use our automated system and the shipping label provided with your approved return.</p>",
+        "social_enable": false,
+        "text_alignment": "left",
+        "background": "#b3955a",
+        "text_color": "#000000",
+        "form_position": "right",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact"
+  ]
+}

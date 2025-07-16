@@ -1,0 +1,125 @@
+<script>
+  (function() {
+    var a = setInterval( function() {
+      if ( typeof window.jQuery === 'undefined') {
+        return;
+      }
+      clearInterval( a );
+
+      
+      $(document).ready(function(){
+        function changeSwatchesBackground(){
+          var swatches = $('.swatch-image div:nth-child(1)');
+          //console.log(swatches)
+          for(let i = 0; i < swatches.length; i++){
+            if(swatches[i].style.backgroundImage){
+              const itemCssUrl = swatches[i].style.backgroundImage;
+              const itemRawUrl = itemCssUrl.replace(`url("`,"").replace(")","");
+              const itemImgUrl = itemRawUrl.split("?")[0];
+              $(swatches[i]).css("background-image",`url('${itemImgUrl}')`);
+              $(swatches[i]).css("width","64px");
+              $(swatches[i]).css("height","64px");
+              $(swatches[i]).addClass('swatch-background');
+            }
+          }
+        }
+    
+        var checkExist = setInterval(function() {
+          if ($('.swatch-image div:nth-child(1)').length) {
+            changeSwatchesBackground();
+            clearInterval(checkExist);
+          }
+        }, 100); // check every 100ms
+    
+        // Size text modification
+        
+       function changeSizeChartText(){
+         const product = {{product | json}};
+         const {tags} = product; 
+         const isWomen = [];
+         const isKid = [];
+         let isFTW = false;
+         let isACC = false;
+         let country = 'US';
+         let isWomens = false;
+         let isMens = false;
+         let isYouth = false;
+         
+         if (tags.includes('FTW')) { isFTW = true }
+         if (tags.includes('ACC')) { isACC = true }
+         
+         if (!isACC) {
+           if (tags.includes('W')){
+            //isWomen.push(product.title);
+             isWomens = true;
+           }else if(tags.includes('Y')){
+              //isKid.push(product.title);
+             isYouth = true;
+           } else if (tags.includes('M')) {
+             isMens = true;
+           }
+    
+           const elm = Array.from(document.querySelectorAll('span.swatch-option-name')).filter(span => span.innerText == 'Size')[0];
+          
+           const texts = {
+            womens:'WOMENS SIZES',
+            mens:'MENS SIZES',
+            kids:'KIDS SIZES',
+           };
+    
+           if (isWomens) {
+              elm.innerText= isFTW ? `${country} ${texts.womens}` : texts.womens;
+            //} else if(isKid.includes(product.title)){
+            } else if(isYouth){
+              elm.innerText= isFTW ? `${country} ${texts.kids}` : texts.kids;
+            } else if (isMens) {
+              elm.innerText= isFTW ? `${country} ${texts.mens}` : texts.mens;
+            }
+         }             
+        }
+       
+        const checkExist2 = setInterval(function() {
+         if ($('span.swatch-option-name').length){
+           changeSizeChartText();
+           clearInterval(checkExist2);
+         }
+        }, 100);
+        // end size text modification
+      });
+   
+/*
+      $(document).ready(function(){
+        function autoSelectVariant(){
+          
+          // Check if url has variant selected
+          var params = new URLSearchParams(window.location.search);
+          if(params.has('variant')) return;
+          
+          // Auto select an available size bigger than "9" 
+          var option_buttons = $('[option-name="Size"] .swatch-view-item:not(.swatch-item-unavailable) .swatch-button');
+          var option_button_default = $('[option-name="Size"] .swatch-view-item:not(.swatch-item-unavailable) .swatch-button[data-value="9"]');
+          
+          if(option_button_default.length){
+           	 option_button_default.click();
+          } 
+          else{
+            option_buttons.each(function(i, option){
+              if($(option).data('value') >= 9){
+                $(option).click();
+                return false;
+              }
+            });
+          }
+        }
+        
+        var checkExist = setInterval(function() {
+          if ($('[option-name="Size"] .swatch-view-item').length) {
+            clearInterval(checkExist);
+            autoSelectVariant();  
+          }
+        }, 100); // check every 100ms
+      });
+  */
+    }, 500 );
+  })();  
+</script>

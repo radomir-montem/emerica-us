@@ -1,0 +1,354 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1644343805ee64abb3": {
+      "type": "index__slideshow-classic",
+      "blocks": {
+        "image_VGG7jN": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/footwear",
+            "image": "shopify://shop_images/Em-SP25-Mute-Desktop.jpg",
+            "mobile_image": "shopify://shop_images/Em-SP25-Mute-DesktopMobile.jpg",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 77,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_VGG7jN"
+      ],
+      "settings": {
+        "image_transition": "slide",
+        "image_slideshow_speed": 10,
+        "show_arrows": true,
+        "show_nav_buttons": true,
+        "mobile_text_below_image": false,
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1643844841ba05cf2f": {
+      "type": "index__heading",
+      "settings": {
+        "preheading": "",
+        "title": "FEATURED PRODUCT",
+        "subheading": "",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "rgba(0,0,0,0)",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "small",
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1643842447523fe33f": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "164384244784618eb2-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6101000157-001-S-001-1080x526-c524254f-b281-475c-bffd-4314f09e1d62_0f41cf4d-0f09-4c8d-8c6b-cc28b62c6220.png",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "164384244784618eb2-2": {
+          "type": "text",
+          "settings": {
+            "title": "Mute",
+            "heading_size": "large",
+            "text": "<p>Back from 1996 – the Mute returns with tough triple-stitching and modern cushioning. Originally part of Emerica’s inaugural 1996 lineup, the Mute returns by popular demand, remastered for a new generation of skaters. Emerica dug into the archives and brought back this team favorite, refining it with today’s technology while keeping its superior durability and comfort intact.</p>",
+            "button_label": "Shop Now",
+            "link": "shopify://products/mute-black-6101000157-001",
+            "button_style": "button--primary",
+            "show_secondary_button": true,
+            "secondary_button_label": "Shop Team Shoes",
+            "secondary_link": "shopify://collections/team-shoes",
+            "secondary_button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "164384244784618eb2-1",
+        "164384244784618eb2-2"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1644421346df795a22": {
+      "type": "index__divider",
+      "settings": {
+        "divider_style": "long",
+        "divider_width": 1,
+        "divider_color": "rgba(0,0,0,0)",
+        "alignment": "center",
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16438231901e067872": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "16438231903636f7d7-2": {
+          "type": "text",
+          "settings": {
+            "title": "Spanky Hi X Lottie",
+            "heading_size": "large",
+            "text": "<p>Kevin “Spanky” Long x Lottie collab – a hi-top with custom artwork by Mike Gigliotti, mixing creative flair and Emerica performance. The Spanky Hi - a staple in Emerica’s lineup - known for its sleek silhouette, reinforced durability, and board feel—all essentials for Spanky’s skateboarding. Now, with Gigliotti’s unmistakable hand-drawn aesthetic, this edition carries the Lottie vibe, bridging Mikes art and Spankys aesthetic.</p>",
+            "button_label": "Shop Now",
+            "link": "shopify://products/spanky-hi-x-lotties-black-6107000287-001",
+            "button_style": "button--primary",
+            "show_secondary_button": true,
+            "secondary_button_label": "Shop Pro Shoes",
+            "secondary_link": "shopify://collections/pro-shoes",
+            "secondary_button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "right",
+            "vertical_position": "center"
+          }
+        },
+        "16438231903636f7d7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6107000287-001-S-001.png",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16438231903636f7d7-2",
+        "16438231903636f7d7-1"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": false,
+        "padding_top": 40,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1644421339d8f52f96": {
+      "type": "index__divider",
+      "settings": {
+        "divider_style": "long",
+        "divider_width": 1,
+        "divider_color": "rgba(0,0,0,0)",
+        "alignment": "center",
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1558726998500": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "1558726998500-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6101000155-003-S-001_895513c2-bf6d-4899-ad45-d6d905101728.png",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "1558726998500-2": {
+          "type": "text",
+          "settings": {
+            "title": "Heritic",
+            "heading_size": "large",
+            "text": "<p>Early-2000s classic reborn – the Heritic returns with TPR toe cap, full cupsole support, and arch comfort. The Heritic is a blast from Emerica’s past, originally born in the early 2000s and now reintroduced with modern tech for today’s skating demands. This classic silhouette was designed as a no-nonsense, everyday skate shoe that could handle all the demands of street and park sessions, and the reissue stays true to that formula while adding updates for improved performance.</p>",
+            "button_label": "Shop Now",
+            "link": "shopify://products/heritic-white-gum-6101000155-104",
+            "button_style": "button--primary",
+            "show_secondary_button": true,
+            "secondary_button_label": "Shop Team Shoes",
+            "secondary_link": "shopify://collections/team-shoes",
+            "secondary_button_style": "button--primary",
+            "background": "#fdffff",
+            "text_color": "#2e2e2e",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1558726998500-0",
+        "1558726998500-2"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "164384485758672817": {
+      "type": "index__heading",
+      "settings": {
+        "preheading": "",
+        "title": "Fire In Da Sky - An Emerica film by Matt King",
+        "subheading": "",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "rgba(0,0,0,0)",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "small",
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 10,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1644344882ed191b9d": {
+      "type": "index__video",
+      "settings": {
+        "aspect_ratio": "16:9",
+        "autoplay": false,
+        "autoloop": false,
+        "mute_video": false,
+        "controls": false,
+        "iframe_video": "https://www.youtube.com/watch?v=6HEzuoFnxxw",
+        "html5_video": "",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "horizontal_text_position": "center",
+        "vertical_text_position": "center",
+        "text_align": "center",
+        "button_label": "",
+        "button_style": "button--secondary",
+        "overlay_style": "none",
+        "video_overlay_color": "#ffffff",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 180,
+        "background_opacity": 77,
+        "text_width": 70,
+        "mobile_text_below_video": false,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1562161575138": {
+      "type": "index__blog-posts",
+      "settings": {
+        "title": "Latest news",
+        "blog_widget_select": "news",
+        "home_page_articles": 6,
+        "blog_show_tags": false,
+        "blog_author": false,
+        "read_time": false,
+        "blog_date": false,
+        "blog_comment_count": false,
+        "blog_show_excerpt": false,
+        "show-border": false,
+        "button_label": "",
+        "button_type": "button--primary",
+        "width": "standard",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "1644343805ee64abb3",
+    "1643844841ba05cf2f",
+    "1643842447523fe33f",
+    "1644421346df795a22",
+    "16438231901e067872",
+    "1644421339d8f52f96",
+    "1558726998500",
+    "164384485758672817",
+    "1644344882ed191b9d",
+    "1562161575138"
+  ]
+}
