@@ -2734,7 +2734,7 @@ body {
 
 h1,
 .h1 {
-  font-family: {{ settings.heading__font.family }}, {{ settings.heading__font.fallback_families }};
+  font-family: var(--heading-font-family), {{ settings.heading__font.fallback_families }};
   font-weight: {{ settings.heading__font.weight }};
   font-style: {{ settings.heading__font.style }};
   font-size: {{ settings.heading_size | append: 'px' }};
@@ -2770,7 +2770,7 @@ h1 > a:focus,
 
 h2,
 .h2 {
-  font-family: {{ settings.heading__font.family }}, {{ settings.heading__font.fallback_families }};
+  font-family: var(--heading-font-family), {{ settings.heading__font.fallback_families }};
   font-weight: {{ settings.heading__font.weight }};
   font-style: {{ settings.heading__font.style }};
   font-size: {{ settings.heading_size | times: 0.9 | floor | append: 'px' }};
@@ -2806,7 +2806,7 @@ h2 > a:focus,
 
 h3,
 .h3 {
-  font-family: {{ settings.heading__font.family }}, {{ settings.heading__font.fallback_families }};
+  font-family: var(--heading-font-family), {{ settings.heading__font.fallback_families }};
   font-weight: {{ settings.heading__font.weight }};
   font-style: {{ settings.heading__font.style }};
   font-size: {{ settings.heading_size | times: 0.8 | floor | append: 'px' }};
@@ -2842,7 +2842,7 @@ h3 > a:focus,
 
 h4,
 .h4 {
-  font-family: {{ settings.heading__font.family }}, {{ settings.heading__font.fallback_families }};
+  font-family: var(--heading-font-family), {{ settings.heading__font.fallback_families }};
   font-weight: {{ settings.heading__font.weight }};
   font-style: {{ settings.heading__font.style }};
   font-size: {{ settings.heading_size | times: 0.7 | floor | append: 'px' }};
@@ -2878,7 +2878,7 @@ h4 > a:focus,
 
 h5,
 .h5 {
-  font-family: {{ settings.heading__font.family }}, {{ settings.heading__font.fallback_families }};
+  font-family: var(--heading-font-family), {{ settings.heading__font.fallback_families }};
   font-weight: {{ settings.heading__font.weight }};
   font-style: {{ settings.heading__font.style }};
   font-size: {{ settings.heading_size | times: 0.65 | floor | append: 'px' }};
@@ -2914,7 +2914,7 @@ h5 > a:focus,
 
 h6,
 .h6 {
-  font-family: {{ settings.heading__font.family }}, {{ settings.heading__font.fallback_families }};
+  font-family: var(--heading-font-family), {{ settings.heading__font.fallback_families }};
   font-weight: {{ settings.heading__font.weight }};
   font-style: {{ settings.heading__font.style }};
   font-size: {{ settings.heading_size | times: 0.6 | floor | append: 'px' }};
@@ -10206,7 +10206,7 @@ ul.tabs.is-toggle.is-toggle-rounded li:last-child a {
 }
 
 .surface-pick-up__modal-title {
-  font-family: {{ settings.heading__font.family }}, {{ settings.heading__font.fallback_families }};
+  font-family: var(--heading-font-family), {{ settings.heading__font.fallback_families }};
   font-weight: {{ settings.heading__font.weight }};
   font-style: {{ settings.heading__font.style }};
   font-size: {{ settings.heading_size | times: 0.8 | floor | append: 'px' }};
@@ -13051,7 +13051,7 @@ shopify-payment-terms {
 }
 
 .footer__heading {
-  font-family: {{ settings.heading__font.family }}, {{ settings.heading__font.fallback_families }};
+  font-family: var(--heading-font-family), {{ settings.heading__font.fallback_families }};
   font-size: {{ settings.footer_heading_font_size | append: 'px' }};
   color: {{ settings.footer_text_color }};
   margin-bottom: 10px;
@@ -14555,7 +14555,7 @@ h1.header__logo-text > a:hover {
 .block__image-with-overlay .image-with-text-overlay__banner h1.title,
 .image-with-text-overlay .image-with-text-overlay__banner h1.title,
 .image-slideshow .image-with-text-overlay__banner h1.title {
-  font-family: {{ settings.heading__font.family }}, {{ settings.heading__font.fallback_families }};
+  font-family: var(--heading-font-family), {{ settings.heading__font.fallback_families }};
   font-weight: {{ settings.heading__font.weight }};
   font-style: {{ settings.heading__font.style }};
   font-size: {{ settings.heading_size | times: 2.0 | append: 'px' }};
@@ -14763,7 +14763,7 @@ h1.header__logo-text > a:hover {
 .collection-info__caption .title {
   display: block;
   margin-bottom: 20px;
-  font-family: {{ settings.heading__font.family }}, {{ settings.heading__font.fallback_families }};
+  font-family: var(--heading-font-family), {{ settings.heading__font.fallback_families }};
   font-weight: {{ settings.heading__font.weight }};
   font-style: {{ settings.heading__font.style }};
   font-size: {{ settings.heading_size | append: 'px' }};
@@ -16137,7 +16137,7 @@ ul.faceted-filter-group-display__list {
   font-style: {{ settings.regular__font.style }};
 }
 .slideshow-with-text .text-slideshow__heading.banner__heading {
-  font-family: {{ settings.heading__font.family }}, {{ settings.heading__font.fallback_families }};
+  font-family: var(--heading-font-family), {{ settings.heading__font.fallback_families }};
   font-size: {{ settings.heading_size | append: 'px' }};
   font-weight: {{ settings.heading__font.weight }};
   font-style: {{ settings.heading__font.style }};

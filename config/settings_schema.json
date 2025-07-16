@@ -1540,6 +1540,12 @@
         "content": "Headings"
       },
       {
+        "type": "checkbox",
+        "id": "custom_heading_font",
+        "label": "Custom Font",
+        "default": false
+      },
+      {
         "type": "font_picker",
         "id": "heading__font",
         "label": "Font",
