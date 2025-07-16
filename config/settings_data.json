@@ -148,7 +148,7 @@
     "button_letter_spacing": 0,
     "button_font_style": "none",
     "custom_heading_font": true,
-    "heading__font": "source_sans_pro_n7",
+    "heading__font": "mono",
     "heading_size": 20,
     "heading_letter_spacing": 0,
     "heading_font_style": "uppercase",
