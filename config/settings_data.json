@@ -138,7 +138,7 @@
     "logo_font_style": "none",
     "nav__font": "source_sans_pro_n7",
     "nav_font_size": 16,
-    "nav_letter_spacing": 0,
+    "nav_letter_spacing": 1,
     "nav_font_style": "uppercase",
     "dropdown_heading_font_size": 16,
     "dropdown_font_size": 16,
