@@ -16,8 +16,8 @@
           "type": "image",
           "settings": {
             "link": "shopify://collections/footwear",
-            "image": "shopify://shop_images/Em-SP25-Mute-Desktop.jpg",
-            "mobile_image": "shopify://shop_images/Em-SP25-Mute-DesktopMobile.jpg",
+            "image": "shopify://shop_images/Em-SU25-NewArrivals-Desktop.webp",
+            "mobile_image": "shopify://shop_images/Em-SU25-NewArrivals-DesktopMobile.webp",
             "pretext": "",
             "title": "",
             "subtitle": "",
@@ -91,7 +91,7 @@
         "164384244784618eb2-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/6101000157-001-S-001-1080x526-c524254f-b281-475c-bffd-4314f09e1d62_0f41cf4d-0f09-4c8d-8c6b-cc28b62c6220.png",
+            "image": "shopify://shop_images/6102000143-001-S-001.webp",
             "image_crop": "none",
             "image_link": ""
           }
@@ -99,16 +99,16 @@
         "164384244784618eb2-2": {
           "type": "text",
           "settings": {
-            "title": "Mute",
+            "title": "Hoban",
             "heading_size": "large",
-            "text": "<p>Back from 1996 – the Mute returns with tough triple-stitching and modern cushioning. Originally part of Emerica’s inaugural 1996 lineup, the Mute returns by popular demand, remastered for a new generation of skaters. Emerica dug into the archives and brought back this team favorite, refining it with today’s technology while keeping its superior durability and comfort intact.</p>",
+            "text": "<p>Braden Hoban’s first signature shoe, The Hoban, is a skate shoe made without compromise. Designed for serious skaters, this high-top blends classic style with modern skate tech for maximum performance on even the most demanding tricks. Whether you’re grinding long handrails or sending massive drops, The Hoban has you covered.</p>",
             "button_label": "Shop Now",
-            "link": "shopify://products/mute-black-6101000157-001",
-            "button_style": "button--primary",
+            "link": "shopify://collections/hoban",
+            "button_style": "button--secondary",
             "show_secondary_button": true,
-            "secondary_button_label": "Shop Team Shoes",
-            "secondary_link": "shopify://collections/team-shoes",
-            "secondary_button_style": "button--primary",
+            "secondary_button_label": "Shop Pro Shoes",
+            "secondary_link": "shopify://collections/pro-shoes",
+            "secondary_button_style": "button--secondary",
             "background": "rgba(0,0,0,0)",
             "text_color": "rgba(0,0,0,0)",
             "alignment": "left",
@@ -151,16 +151,16 @@
         "16438231903636f7d7-2": {
           "type": "text",
           "settings": {
-            "title": "Spanky Hi X Lottie",
+            "title": "Spanky Hi",
             "heading_size": "large",
-            "text": "<p>Kevin “Spanky” Long x Lottie collab – a hi-top with custom artwork by Mike Gigliotti, mixing creative flair and Emerica performance. The Spanky Hi - a staple in Emerica’s lineup - known for its sleek silhouette, reinforced durability, and board feel—all essentials for Spanky’s skateboarding. Now, with Gigliotti’s unmistakable hand-drawn aesthetic, this edition carries the Lottie vibe, bridging Mikes art and Spankys aesthetic.</p>",
+            "text": "<p>The Spanky Hi takes everything skaters love about Kevin “Spanky” Long’s low-top and raises the collar for more support, more protection, and a fresh silhouette. It’s a true high-top skate shoe, offering extra padding around the ankle for stability on landings and defense against board hits, while still maintaining the clean, slim profile Spanky is known for.</p>",
             "button_label": "Shop Now",
-            "link": "shopify://products/spanky-hi-x-lotties-black-6107000287-001",
-            "button_style": "button--primary",
+            "link": "shopify://collections/spanky",
+            "button_style": "button--secondary",
             "show_secondary_button": true,
             "secondary_button_label": "Shop Pro Shoes",
             "secondary_link": "shopify://collections/pro-shoes",
-            "secondary_button_style": "button--primary",
+            "secondary_button_style": "button--secondary",
             "background": "rgba(0,0,0,0)",
             "text_color": "rgba(0,0,0,0)",
             "alignment": "right",
@@ -170,7 +170,7 @@
         "16438231903636f7d7-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/6107000287-001-S-001.png",
+            "image": "shopify://shop_images/6102000141-975-S-001-1080x588-cfecbb74-1761-40bb-8b7c-be4a7c717299.png",
             "image_crop": "none",
             "image_link": ""
           }
@@ -211,7 +211,7 @@
         "1558726998500-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/6101000155-003-S-001_895513c2-bf6d-4899-ad45-d6d905101728.png",
+            "image": "shopify://shop_images/6101000155-544-S-001.webp",
             "image_crop": "none",
             "image_link": ""
           }
@@ -221,16 +221,16 @@
           "settings": {
             "title": "Heritic",
             "heading_size": "large",
-            "text": "<p>Early-2000s classic reborn – the Heritic returns with TPR toe cap, full cupsole support, and arch comfort. The Heritic is a blast from Emerica’s past, originally born in the early 2000s and now reintroduced with modern tech for today’s skating demands. This classic silhouette was designed as a no-nonsense, everyday skate shoe that could handle all the demands of street and park sessions, and the reissue stays true to that formula while adding updates for improved performance.</p>",
+            "text": "<p>The Heritic is a blast from Emerica’s past, originally born in the early 2000s and now reintroduced with modern tech for today’s skating demands. This classic silhouette was designed as a no-nonsense, everyday skate shoe that could handle all the demands of street and park sessions, and the reissue stays true to that formula while adding updates for improved performance.</p>",
             "button_label": "Shop Now",
             "link": "shopify://products/heritic-white-gum-6101000155-104",
-            "button_style": "button--primary",
+            "button_style": "button--secondary",
             "show_secondary_button": true,
             "secondary_button_label": "Shop Team Shoes",
             "secondary_link": "shopify://collections/team-shoes",
-            "secondary_button_style": "button--primary",
+            "secondary_button_style": "button--secondary",
             "background": "#fdffff",
-            "text_color": "#2e2e2e",
+            "text_color": "#000000",
             "alignment": "left",
             "vertical_position": "center"
           }
