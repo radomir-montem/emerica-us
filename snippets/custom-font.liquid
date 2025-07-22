@@ -6,12 +6,38 @@
             src: url("{{ 'Arial-BoldMT.woff2' | asset_url }}") format("woff2");
         }
     {% endif %}
-    
+
+    {% if settings.custom_preheading_font or settings.custom_banner_heading_font or settings.custom_subheading_font %}
+        @font-face {
+            font-display: swap;
+            font-family: subheader;
+            src: url("{{ 'ArialMT.woff2' | asset_url }}") format("woff2");
+        }
+    {% endif %}
+
     :root {
         {% if settings.custom_heading_font %}
             --heading-font-family: 'brandheader';
         {% else %}
             --heading-font-family: {{ settings.heading__font.family }};
         {% endif %}
+
+        {%- if settings.custom_preheading_font -%}
+            --preheading-font-family: subheader;
+        {%- else -%}
+            --preheading-font-family: {{ settings.custom_preheading_font.family }};
+        {%- endif -%}
+
+        {%- if settings.custom_banner_heading_font -%}
+            --banner-heading-font-family: brandheader;
+        {%- else -%}
+            --banner-heading-font-family: {{ settings.banner_heading__font.family }};
+        {%- endif -%}
+
+        {%- if settings.custom_subheading_font -%}
+            --subheading-font-family: subheader;
+        {%- else -%}
+            --subheading-font-family: {{ settings.subheading__font.family }};
+        {%- endif -%}
     }
 </style>

@@ -1594,6 +1594,12 @@
         "content": "Preheading"
       },
       {
+        "type": "checkbox",
+        "id": "custom_preheading_font",
+        "label": "Custom Font",
+        "default": false
+      },
+      {
         "type": "font_picker",
         "id": "preheading_font",
         "label": "Font",
@@ -1633,6 +1639,12 @@
         "content": "Subheading"
       },
       {
+        "type": "checkbox",
+        "id": "custom_subheading_font",
+        "label": "Custom Font",
+        "default": false
+      },
+      {
         "type": "font_picker",
         "id": "subheading_font",
         "label": "Font",
@@ -1670,6 +1682,12 @@
       {
         "type": "header",
         "content": "Banner headings"
+      },
+      {
+        "type": "checkbox",
+        "id": "custom_banner_heading_font",
+        "label": "Custom Font",
+        "default": false
       },
       {
         "type": "font_picker",

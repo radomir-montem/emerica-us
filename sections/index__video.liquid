@@ -174,7 +174,7 @@
               <div class="video__text-wrapper text-align-{{ section.settings.text_align }}">
                 <div class="overlay"></div>
                 {% if pretext != blank %}
-                  <p class="pretext subtitle banner__subheading video__subtitle">{{ pretext }}</p>
+                  <p class="pretext subtitle banner__subheading heading-section__preheading video__subtitle">{{ pretext }}</p>
                 {% endif %}
                 {% if title != blank %}
                   <h2 class="title video__title banner__heading has-small-padding-top">
@@ -182,7 +182,7 @@
                   </h2>
                 {% endif %}
                 {% if subtitle != blank %}
-                  <p class="subtitle video__subtitle banner__subheading has-small-padding-top">{{ subtitle }}</p>
+                  <p class="subtitle video__subtitle banner__subheading heading-section__subheading has-small-padding-top">{{ subtitle }}</p>
                 {% endif %}
                 {% if button_label != blank %}
                   <button class="button {{ button_style }}" data-play-button>{{ button_label }}</button>

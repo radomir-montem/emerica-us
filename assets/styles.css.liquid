@@ -12736,7 +12736,7 @@ shopify-payment-terms {
 }
 
 .banner__heading {
-  font-family: {{ settings.banner_heading__font.family }}, {{ settings.banner_heading__font.fallback_families }};
+  font-family: var(--banner-heading-font-family), {{ settings.banner_heading__font.fallback_families }};
   font-weight: {{ settings.banner_heading__font.weight }};
   font-style: {{ settings.banner_heading__font.style }};
   font-size: {{ settings.banner_heading_size | append: 'px' }};
@@ -12755,7 +12755,7 @@ shopify-payment-terms {
 }
 
 .banner__subheading {
-  font-family: {{ settings.banner_text__font.family }}, {{ settings.banner_text__font.fallback_families }};
+  font-family: var(--subheading_font), {{ settings.banner_text__font.fallback_families }};
   font-weight: {{ settings.banner_text__font.weight }};
   font-style: {{ settings.banner_text__font.style }};
   font-size: {{ settings.banner_text_size | append: 'px' }};
@@ -14222,7 +14222,7 @@ h1.header__logo-text > a:hover {
 /* # Heading
 ================================================== */
 .heading-section__preheading {
-  font-family: {{ settings.preheading_font.family }}, {{ settings.preheading_font.fallback_families }};
+  font-family: var(--preheading-font-family), {{ settings.preheading_font.fallback_families }};
   font-size: {{ settings.preheading_size | append: 'px' }};
   font-weight: {{ settings.preheading_font.weight }};
   font-style: {{ settings.preheading_font.style }};
@@ -14230,7 +14230,7 @@ h1.header__logo-text > a:hover {
 }
 
 .heading-section__subheading {
-  font-family: {{ settings.subheading_font.family }}, {{ settings.subheading_font.fallback_families }};
+  font-family: var(--subheading-font-family), {{ settings.subheading_font.fallback_families }};
   font-size: {{ settings.subheading_size | append: 'px' }};
   font-weight: {{ settings.subheading_font.weight }};
   font-style: {{ settings.subheading_font.style }};
@@ -14525,7 +14525,7 @@ h1.header__logo-text > a:hover {
 .image-slideshow .pretext,
 .image-slideshow .subtitle {
   font-size: {{ settings.banner_text_size | append: 'px' }};
-  font-family: {{ settings.banner_text__font.family }}, {{ settings.regular__font.fallback_families }};
+  font-family: var(--subheading_font-family);
   font-weight: {{ settings.banner_text__font.weight }};
   letter-spacing: {{ settings.banner_text_letter_spacing | append: 'px' }};
 }
@@ -14534,6 +14534,15 @@ h1.header__logo-text > a:hover {
 .image-slideshow .subtitle.image-with-text-overlay__subheading {
   padding-top: 10px;
 }
+
+.image-slideshow .pretext {
+  font-family: var(--preheading-font-family);
+}
+
+.image-slideshow .subtitle {
+  font-family:var(--preheading-font-family);
+}
+
 .block__image-with-overlay .title,
 .image-with-text-overlay .title,
 .image-slideshow .title {
@@ -16390,7 +16399,7 @@ ul.faceted-filter-group-display__list {
   }
 }
 .slideshow-classic__banner h2.title {
-  font-family: {{ settings.banner_heading__font.family }}, {{ settings.banner_heading__font.fallback_families }};
+  font-family: var(--banner-heading-font-family), {{ settings.banner_heading__font.fallback_families }};
   font-weight: {{ settings.banner_heading__font.weight }};
   font-style: {{ settings.banner_heading__font.style }};
   font-size: {{ settings.banner_heading_size | append: 'px' }};

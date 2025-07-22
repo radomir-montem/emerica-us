@@ -108,13 +108,13 @@
                                                         >
             <div class="text-slideshow__content text-align-{{ section.settings.text_alignment }}">
               {% if block.settings.pretext != blank %}
-                <div class="text-slideshow__heading banner__subheading">{{ block.settings.pretext }}</div>
+                <div class="text-slideshow__heading heading-section__preheading banner__subheading">{{ block.settings.pretext }}</div>
               {% endif %}
               {% if block.settings.title != blank %}
                 <h2 class="text-slideshow__heading banner__heading title">{{ block.settings.title }}</h2>
               {% endif %}
               {% if block.settings.text != blank %}
-                <div class="text-slideshow__heading banner__subheading subtitle content">{{ block.settings.text }}</div>
+                <div class="text-slideshow__heading banner__subheading heading-section__subheading subtitle content">{{ block.settings.text }}</div>
               {% endif %}
               {% if block.settings.button_label != blank %}
                 {% render 'button',
