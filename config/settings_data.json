@@ -710,7 +710,7 @@
             "type": "text",
             "settings": {
               "icon": "box",
-              "text": "Free Shipping On US Orders Over $50+",
+              "text": "Free Shipping On US Orders Over $75+",
               "link": "shopify://pages/shipping"
             }
           },
