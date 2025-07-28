@@ -335,7 +335,7 @@
         "type": "announcement-bar",
         "settings": {
           "icon_label": "",
-          "text": "<p>Free Shipping On Orders $50+</p>",
+          "text": "<p>Free Shipping On Orders $75+ | Free 30-Day Returns</p>",
           "alignment": "center",
           "size": "small",
           "button_label": "",
@@ -6305,11 +6305,6 @@
       },
       "10864971697205422121": {
         "type": "shopify://apps/gorgias-live-chat-helpdesk/blocks/gorgias/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
-        "disabled": false,
-        "settings": {}
-      },
-      "18380801738182334087": {
-        "type": "shopify://apps/addingwell/blocks/aw-gtm/c8ed21e7-0ac8-4249-8c91-cbdde850b5b8",
         "disabled": false,
         "settings": {}
       },
