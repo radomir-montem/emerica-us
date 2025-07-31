@@ -1,0 +1,26 @@
+/* 1) @font-face pour Arial Black */
+@font-face {
+  font-family: 'Arial Black';
+  src: url('{{ "Arial-Black.woff2" | asset_url }}') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2) Override des variables Horizon */
+:root {
+  --font-paragraph--family: 'Arial Black', Arial, sans-serif !important;
+  --font-h1--family:    'Arial Black', Arial, sans-serif !important;
+  --font-h2--family:    'Arial Black', Arial, sans-serif !important;
+  --font-h3--family:    'Arial Black', Arial, sans-serif !important;
+  --font-h4--family:    'Arial Black', Arial, sans-serif !important;
+  --font-h5--family:    'Arial Black', Arial, sans-serif !important;
+  --font-h6--family:    'Arial Black', Arial, sans-serif !important;
+  --button-font-family-primary:   'Arial Black', Arial, sans-serif !important;
+  --button-font-family-secondary: 'Arial Black', Arial, sans-serif !important;
+}
+
+/* 3) Sécuriser globalement */
+html, body, input, button, textarea, select {
+  font-family: 'Arial Black', Arial, sans-serif !important;
+}

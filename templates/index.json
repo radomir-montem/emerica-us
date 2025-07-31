@@ -9,346 +9,1461 @@
  */
 {
   "sections": {
-    "1644343805ee64abb3": {
-      "type": "index__slideshow-classic",
+    "slideshow_TfhrGx": {
+      "type": "slideshow",
       "blocks": {
-        "image_VGG7jN": {
-          "type": "image",
+        "slide_wLrAH4": {
+          "type": "_slide",
+          "name": "Spanky Hi x Lottie",
           "settings": {
-            "link": "shopify://collections/footwear",
-            "image": "shopify://shop_images/Em-SP25-Mute-Desktop.jpg",
-            "mobile_image": "shopify://shop_images/Em-SP25-Mute-DesktopMobile.jpg",
-            "pretext": "",
-            "title": "",
-            "subtitle": "",
-            "pretext_color": "#000000",
-            "heading_color": "#000000",
-            "subheading_color": "#000000",
-            "text_alignment": "center",
-            "text_horizontal_position": "center",
-            "background_color": "#ffffff",
-            "background_opacity": 77,
-            "border_color": "#ffffff",
-            "border_width": 0,
-            "text_width": 40,
-            "button_1": "",
-            "button_1_link": "",
-            "button_1_style": "button--secondary",
-            "button_2": "",
-            "button_2_link": "",
-            "button_2_style": "button--secondary",
-            "mobile_image_crop": "none",
-            "pretext_color_mobile": "rgba(0,0,0,0)",
-            "heading_color_mobile": "rgba(0,0,0,0)",
-            "subheading_color_mobile": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "image_VGG7jN"
-      ],
-      "settings": {
-        "image_transition": "slide",
-        "image_slideshow_speed": 10,
-        "show_arrows": true,
-        "show_nav_buttons": true,
-        "mobile_text_below_image": false,
-        "width": "wide",
-        "padding_top": 0,
-        "padding_bottom": 20,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "1643844841ba05cf2f": {
-      "type": "index__heading",
-      "settings": {
-        "preheading": "",
-        "title": "FEATURED PRODUCT",
-        "subheading": "",
-        "preheading_color": "rgba(0,0,0,0)",
-        "heading_color": "rgba(0,0,0,0)",
-        "subheading_color": "rgba(0,0,0,0)",
-        "background": "rgba(0,0,0,0)",
-        "gradient": "rgba(0,0,0,0)",
-        "gradient_rotation": 0,
-        "heading_alignment": "center",
-        "vertical_spacing": "small",
-        "width": "standard",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "padding_left": 0,
-        "padding_right": 0,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "1643842447523fe33f": {
-      "type": "index__image-with-text",
-      "blocks": {
-        "164384244784618eb2-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/6101000157-001-S-001-1080x526-c524254f-b281-475c-bffd-4314f09e1d62_0f41cf4d-0f09-4c8d-8c6b-cc28b62c6220.png",
-            "image_crop": "none",
-            "image_link": ""
-          }
+            "media_type_1": "image",
+            "image_1": "shopify://shop_images/Em-WebsiteHomepageImage-SpankyHixLottie-1.jpg",
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-end",
+            "gap": 12,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "group_eiQerc": {
+              "type": "group",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 0,
+                "width": "fill",
+                "custom_width": 50,
+                "width_mobile": "fill",
+                "custom_width_mobile": 85,
+                "height": "custom",
+                "custom_height": 0,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-6",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 48,
+                "padding-inline-end": 48
+              },
+              "blocks": {
+                "text_TmNL3b": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h1><strong>Spanky Hi X Lottie.</strong></h1>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_k7PXGj": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Emerica and Mike Gigliotti Unveil the Spanky Hi X Lottie.</h3>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 20,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_TmNL3b",
+                "text_k7PXGj"
+              ]
+            },
+            "group_x7nqUN": {
+              "type": "group",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "row",
+                "vertical_on_mobile": false,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 50,
+                "width_mobile": "fill",
+                "custom_width_mobile": 85,
+                "height": "custom",
+                "custom_height": 40,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-6",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 12,
+                "padding-block-end": 12,
+                "padding-inline-start": 48,
+                "padding-inline-end": 48
+              },
+              "blocks": {
+                "button_gDJRTh": {
+                  "type": "button",
+                  "name": "Read Button",
+                  "settings": {
+                    "label": "Read",
+                    "link": "shopify://blogs/news/emerica-and-mike-gigliotti-unveil-the-spanky-hi-x-lottie",
+                    "open_in_new_tab": false,
+                    "style_class": "button-secondary",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                },
+                "button_jRDFEp": {
+                  "type": "button",
+                  "name": "Shop Button",
+                  "settings": {
+                    "label": "Shop",
+                    "link": "shopify://products/spanky-hi-x-lotties-black-6107000287-001",
+                    "open_in_new_tab": false,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "button_gDJRTh",
+                "button_jRDFEp"
+              ]
+            }
+          },
+          "block_order": [
+            "group_eiQerc",
+            "group_x7nqUN"
+          ]
         },
-        "164384244784618eb2-2": {
-          "type": "text",
+        "slide_BNTJf8": {
+          "type": "_slide",
+          "name": "Mute.",
           "settings": {
-            "title": "Mute",
-            "heading_size": "large",
-            "text": "<p>Back from 1996 – the Mute returns with tough triple-stitching and modern cushioning. Originally part of Emerica’s inaugural 1996 lineup, the Mute returns by popular demand, remastered for a new generation of skaters. Emerica dug into the archives and brought back this team favorite, refining it with today’s technology while keeping its superior durability and comfort intact.</p>",
-            "button_label": "Shop Now",
-            "link": "shopify://products/mute-black-6101000157-001",
-            "button_style": "button--primary",
-            "show_secondary_button": true,
-            "secondary_button_label": "Shop Team Shoes",
-            "secondary_link": "shopify://collections/team-shoes",
-            "secondary_button_style": "button--primary",
-            "background": "rgba(0,0,0,0)",
-            "text_color": "rgba(0,0,0,0)",
-            "alignment": "left",
-            "vertical_position": "center"
-          }
+            "media_type_1": "image",
+            "image_1": "shopify://shop_images/Highres-Em-SP25-Mute-Instagram-Post-26.jpg",
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-end",
+            "gap": 12,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "group_7btda3": {
+              "type": "group",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 0,
+                "width": "fill",
+                "custom_width": 50,
+                "width_mobile": "fill",
+                "custom_width_mobile": 85,
+                "height": "custom",
+                "custom_height": 0,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-6",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 48,
+                "padding-inline-end": 48
+              },
+              "blocks": {
+                "text_PwQmzn": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h1>Mute.</h1>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_WPmhaE": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Straight from the archives of Emerica's inaugural collection.</h3>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 20,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_PwQmzn",
+                "text_WPmhaE"
+              ]
+            },
+            "group_W46VwY": {
+              "type": "group",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "row",
+                "vertical_on_mobile": false,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 50,
+                "width_mobile": "fill",
+                "custom_width_mobile": 85,
+                "height": "custom",
+                "custom_height": 40,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-6",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 12,
+                "padding-block-end": 12,
+                "padding-inline-start": 48,
+                "padding-inline-end": 48
+              },
+              "blocks": {
+                "button_9zzNxP": {
+                  "type": "button",
+                  "name": "Read Button",
+                  "disabled": true,
+                  "settings": {
+                    "label": "Read",
+                    "link": "shopify://blogs/news/emerica-and-mike-gigliotti-unveil-the-spanky-hi-x-lottie",
+                    "open_in_new_tab": false,
+                    "style_class": "button-secondary",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                },
+                "button_YHHTLD": {
+                  "type": "button",
+                  "name": "Shop Button",
+                  "settings": {
+                    "label": "Shop",
+                    "link": "shopify://products/mute-black-6101000157-001",
+                    "open_in_new_tab": false,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "button_9zzNxP",
+                "button_YHHTLD"
+              ]
+            }
+          },
+          "block_order": [
+            "group_7btda3",
+            "group_W46VwY"
+          ]
         }
       },
       "block_order": [
-        "164384244784618eb2-1",
-        "164384244784618eb2-2"
+        "slide_wLrAH4",
+        "slide_BNTJf8"
       ],
+      "name": "t:names.slideshow",
       "settings": {
-        "width": "standard",
-        "show_gutter": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "1644421346df795a22": {
-      "type": "index__divider",
-      "settings": {
-        "divider_style": "long",
-        "divider_width": 1,
-        "divider_color": "rgba(0,0,0,0)",
-        "alignment": "center",
-        "width": "standard",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "16438231901e067872": {
-      "type": "index__image-with-text",
-      "blocks": {
-        "16438231903636f7d7-2": {
-          "type": "text",
-          "settings": {
-            "title": "Spanky Hi X Lottie",
-            "heading_size": "large",
-            "text": "<p>Kevin “Spanky” Long x Lottie collab – a hi-top with custom artwork by Mike Gigliotti, mixing creative flair and Emerica performance. The Spanky Hi - a staple in Emerica’s lineup - known for its sleek silhouette, reinforced durability, and board feel—all essentials for Spanky’s skateboarding. Now, with Gigliotti’s unmistakable hand-drawn aesthetic, this edition carries the Lottie vibe, bridging Mikes art and Spankys aesthetic.</p>",
-            "button_label": "Shop Now",
-            "link": "shopify://products/spanky-hi-x-lotties-black-6107000287-001",
-            "button_style": "button--primary",
-            "show_secondary_button": true,
-            "secondary_button_label": "Shop Pro Shoes",
-            "secondary_link": "shopify://collections/pro-shoes",
-            "secondary_button_style": "button--primary",
-            "background": "rgba(0,0,0,0)",
-            "text_color": "rgba(0,0,0,0)",
-            "alignment": "right",
-            "vertical_position": "center"
-          }
-        },
-        "16438231903636f7d7-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/6107000287-001-S-001.png",
-            "image_crop": "none",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16438231903636f7d7-2",
-        "16438231903636f7d7-1"
-      ],
-      "settings": {
-        "width": "standard",
-        "show_gutter": false,
-        "padding_top": 40,
-        "padding_bottom": 20,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "1644421339d8f52f96": {
-      "type": "index__divider",
-      "settings": {
-        "divider_style": "long",
-        "divider_width": 1,
-        "divider_color": "rgba(0,0,0,0)",
-        "alignment": "center",
-        "width": "standard",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "1558726998500": {
-      "type": "index__image-with-text",
-      "blocks": {
-        "1558726998500-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/6101000155-003-S-001_895513c2-bf6d-4899-ad45-d6d905101728.png",
-            "image_crop": "none",
-            "image_link": ""
-          }
-        },
-        "1558726998500-2": {
-          "type": "text",
-          "settings": {
-            "title": "Heritic",
-            "heading_size": "large",
-            "text": "<p>Early-2000s classic reborn – the Heritic returns with TPR toe cap, full cupsole support, and arch comfort. The Heritic is a blast from Emerica’s past, originally born in the early 2000s and now reintroduced with modern tech for today’s skating demands. This classic silhouette was designed as a no-nonsense, everyday skate shoe that could handle all the demands of street and park sessions, and the reissue stays true to that formula while adding updates for improved performance.</p>",
-            "button_label": "Shop Now",
-            "link": "shopify://products/heritic-white-gum-6101000155-104",
-            "button_style": "button--primary",
-            "show_secondary_button": true,
-            "secondary_button_label": "Shop Team Shoes",
-            "secondary_link": "shopify://collections/team-shoes",
-            "secondary_button_style": "button--primary",
-            "background": "#fdffff",
-            "text_color": "#2e2e2e",
-            "alignment": "left",
-            "vertical_position": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1558726998500-0",
-        "1558726998500-2"
-      ],
-      "settings": {
-        "width": "standard",
-        "show_gutter": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "164384485758672817": {
-      "type": "index__heading",
-      "settings": {
-        "preheading": "",
-        "title": "Fire In Da Sky - An Emerica film by Matt King",
-        "subheading": "",
-        "preheading_color": "rgba(0,0,0,0)",
-        "heading_color": "rgba(0,0,0,0)",
-        "subheading_color": "rgba(0,0,0,0)",
-        "background": "rgba(0,0,0,0)",
-        "gradient": "rgba(0,0,0,0)",
-        "gradient_rotation": 0,
-        "heading_alignment": "center",
-        "vertical_spacing": "small",
-        "width": "standard",
-        "padding_top": 20,
-        "padding_bottom": 10,
-        "padding_left": 0,
-        "padding_right": 0,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "1644344882ed191b9d": {
-      "type": "index__video",
-      "settings": {
-        "aspect_ratio": "16:9",
+        "icons_style": "arrows_large",
+        "slideshow_controls_style": "dots",
+        "color_scheme": "",
         "autoplay": false,
-        "autoloop": false,
-        "mute_video": false,
-        "controls": false,
-        "iframe_video": "https://www.youtube.com/watch?v=6HEzuoFnxxw",
-        "html5_video": "",
-        "pretext": "",
-        "title": "",
-        "subtitle": "",
-        "pretext_color": "#000000",
-        "heading_color": "#000000",
-        "subheading_color": "#000000",
-        "horizontal_text_position": "center",
-        "vertical_text_position": "center",
-        "text_align": "center",
-        "button_label": "",
-        "button_style": "button--secondary",
-        "overlay_style": "none",
-        "video_overlay_color": "#ffffff",
-        "gradient": "rgba(0,0,0,0)",
-        "gradient_rotation": 180,
-        "background_opacity": 77,
-        "text_width": 70,
-        "mobile_text_below_video": false,
-        "pretext_color_mobile": "rgba(0,0,0,0)",
-        "heading_color_mobile": "rgba(0,0,0,0)",
-        "subheading_color_mobile": "rgba(0,0,0,0)",
-        "width": "wide",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_left": 0,
-        "padding_right": 0,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
+        "autoplay_speed": 4,
+        "section_width": "full-width",
+        "slide_height": "large",
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
-    "1562161575138": {
-      "type": "index__blog-posts",
+    "section_8fPXLk": {
+      "type": "section",
+      "blocks": {
+        "video_bAEHHi": {
+          "type": "video",
+          "name": "t:names.video",
+          "settings": {
+            "source": "url",
+            "video_url": "https://www.youtube.com/watch?v=6HEzuoFnxxw",
+            "video_autoplay": true,
+            "video_loop": true,
+            "alt": "Leo, Spanky, Figgy & Stu. Fire In Da Sky - An Emerica film by Matt King",
+            "custom_width": 100,
+            "custom_width_mobile": 100,
+            "aspect_ratio": "16/9",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "group_nYenbx": {
+          "type": "group",
+          "name": "Caption",
+          "settings": {
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_gPmhwT": {
+              "type": "text",
+              "name": "t:names.text",
+              "disabled": true,
+              "settings": {
+                "text": "<h3>Emerica and Mike Gigliotti Unveil the Spanky Hi X Lottie</h3><p>Emerica is proud to announce its latest collaboration with longtime family member Kevin \"Spanky\" Long and artist Mike Gigliotti, bringing a fresh twist to the Spanky Hi. <br/>The resident Baker Skateboards artist brings the rawness of his work to create the <a href=\"https://emerica.com/collections/footwear/products/spanky-hi-x-lotties-black-6107000287-001\" title=\"spanky hi x lottie\">Emerica Spanky Hi x Lottie</a>.</p><p>The Spanky Hi - a staple in Emerica’s lineup - known for its sleek silhouette, reinforced durability, and board feel—all essentials for Spanky’s skateboarding.<br/>Now, with Gigliotti’s unmistakable hand-drawn aesthetic, this edition carries the Lottie vibe, bridging Mikes art and Spankys aesthetic.</p><p>This limited-edition release features a custom embroidered tongue graphic and insole artwork by Gigliotti on a high top construction for added ankle support, double stitched seams for durability, full length-EVA midsole for comfort and impact protection and a 400 NBS rubber cupsoleall in a colorway that speaks to both the Lottie aesthetic and Spanky’s timeless style.</p><p></p>",
+                "width": "100%",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_gPmhwT"
+          ]
+        }
+      },
+      "block_order": [
+        "video_bAEHHi",
+        "group_nYenbx"
+      ],
+      "name": "t:names.video_section",
       "settings": {
-        "title": "Latest news",
-        "blog_widget_select": "news",
-        "home_page_articles": 6,
-        "blog_show_tags": false,
-        "blog_author": false,
-        "read_time": false,
-        "blog_date": false,
-        "blog_comment_count": false,
-        "blog_show_excerpt": false,
-        "show-border": false,
-        "button_label": "",
-        "button_type": "button--primary",
-        "width": "standard",
-        "padding_top": 60,
-        "padding_bottom": 0,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 32,
+        "padding-block-end": 32
+      }
+    },
+    "divider_WDCL3k": {
+      "type": "divider",
+      "name": "t:names.divider_section",
+      "settings": {
+        "color_scheme": "",
+        "section_width": "full-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "product_list_FqX9Cx": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "name": "t:names.header",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_list_text_GAzQg9": {
+              "type": "_product-list-text",
+              "name": "t:names.collection_title",
+              "settings": {
+                "text": "<h2><strong>Team Favorites.</strong></h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_list_button_pL4qRP": {
+              "type": "_product-list-button",
+              "name": "t:names.product_list_button",
+              "settings": {
+                "label": "View all",
+                "open_in_new_tab": false,
+                "style_class": "link",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_list_text_GAzQg9",
+            "product_list_button_pL4qRP"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 8,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_hWfaap": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "group_ptptVk": {
+              "type": "_product-card-group",
+              "name": "t:names.group",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 4,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_EgT9nG": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<h3><strong>{{ closest.product.title }}</strong></h3>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "price_fBYtTq": {
+                  "type": "price",
+                  "name": "t:names.product_price",
+                  "settings": {
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "type_preset": "",
+                    "width": "100%",
+                    "alignment": "left",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "review_Vn6XQy": {
+                  "type": "review",
+                  "name": "t:names.product_review_stars",
+                  "settings": {
+                    "stars_style": "shaded",
+                    "show_number": true,
+                    "rating_color": "primary",
+                    "type_preset": "paragraph",
+                    "alignment": "left"
+                  },
+                  "blocks": {}
+                },
+                "swatches_C4xRmC": {
+                  "type": "swatches",
+                  "name": "t:names.swatches",
+                  "settings": {
+                    "product_swatches_alignment": "flex-start",
+                    "product_swatches_alignment_mobile": "flex-start",
+                    "hide_padding": false,
+                    "product_swatches_padding_top": 4,
+                    "product_swatches_padding_bottom": 0,
+                    "product_swatches_padding_left": 0,
+                    "product_swatches_padding_right": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_EgT9nG",
+                "price_fBYtTq",
+                "review_Vn6XQy",
+                "swatches_C4xRmC"
+              ]
+            }
+          },
+          "block_order": [
+            "product_card_gallery_hWfaap",
+            "group_ptptVk"
+          ]
+        }
+      },
+      "name": "t:names.products_grid",
+      "settings": {
+        "collection": "footwear",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 4,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 30,
+        "rows_gap": 36,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "color_scheme": "scheme-1",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "collection_list_A7AHdQ": {
+      "type": "collection-list",
+      "blocks": {
+        "group_AMXe93": {
+          "type": "group",
+          "name": "t:names.header",
+          "settings": {
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_W66bnh": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<h2><strong>Pro Shoes.</strong></h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 16,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_W66bnh"
+          ]
+        },
+        "static-collection-card": {
+          "type": "_collection-card",
+          "static": true,
+          "settings": {
+            "placement": "below_image",
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "collection_card_gap": 8,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0
+          },
+          "blocks": {
+            "text_cYYEJ8": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>{{ closest.collection.title }}</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "name": "t:names.collection_card_image",
+              "static": true,
+              "settings": {
+                "image_ratio": "square",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_cYYEJ8"
+          ]
+        }
+      },
+      "block_order": [
+        "group_AMXe93"
+      ],
+      "name": "t:names.collections_carousel",
+      "settings": {
+        "collection_list": [
+          "spanky",
+          "hoban",
+          "romero",
+          "dickson"
+        ],
+        "layout_type": "grid",
+        "carousel_on_mobile": true,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
+        "bento_gap": 8,
+        "rows_gap": 8,
+        "max_collections": 4,
+        "icons_style": "chevron",
+        "icons_shape": "circle",
+        "section_width": "page-width",
+        "gap": 12,
+        "color_scheme": "",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "product_list_KmqBE6": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "name": "t:names.header",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_list_text_4bgHKE": {
+              "type": "_product-list-text",
+              "name": "t:names.collection_title",
+              "settings": {
+                "text": "<h2><strong>Apparel.</strong></h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_list_button_ayWATG": {
+              "type": "_product-list-button",
+              "name": "t:names.product_list_button",
+              "settings": {
+                "label": "View all",
+                "open_in_new_tab": false,
+                "style_class": "link",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_list_text_4bgHKE",
+            "product_list_button_ayWATG"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 8,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_Xd7Uzq": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "group_wURcFh": {
+              "type": "_product-card-group",
+              "name": "t:names.group",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 4,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_nba8UE": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<h3><strong>{{ closest.product.title }}</strong></h3>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "price_XrWCK9": {
+                  "type": "price",
+                  "name": "t:names.product_price",
+                  "settings": {
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "type_preset": "",
+                    "width": "100%",
+                    "alignment": "left",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "review_GBtRfD": {
+                  "type": "review",
+                  "name": "t:names.product_review_stars",
+                  "settings": {
+                    "stars_style": "shaded",
+                    "show_number": true,
+                    "rating_color": "primary",
+                    "type_preset": "paragraph",
+                    "alignment": "left"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_nba8UE",
+                "price_XrWCK9",
+                "review_GBtRfD"
+              ]
+            }
+          },
+          "block_order": [
+            "product_card_gallery_Xd7Uzq",
+            "group_wURcFh"
+          ]
+        }
+      },
+      "name": "t:names.products_grid",
+      "settings": {
+        "collection": "new-apparel-arrivals",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 4,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 30,
+        "rows_gap": 36,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "color_scheme": "scheme-1",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "collection_list_TjKkXP": {
+      "type": "collection-list",
+      "blocks": {
+        "group_dwrQPd": {
+          "type": "group",
+          "name": "t:names.header",
+          "settings": {
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_BFVPHe": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2><strong>Shop By Category.</strong></h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_r9teFq": {
+              "type": "text",
+              "name": "t:names.text",
+              "disabled": true,
+              "settings": {
+                "text": "<h2>Categories.</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 16,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_BFVPHe",
+            "text_r9teFq"
+          ]
+        },
+        "static-collection-card": {
+          "type": "_collection-card",
+          "static": true,
+          "settings": {
+            "placement": "below_image",
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "collection_card_gap": 8,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0
+          },
+          "blocks": {
+            "text_LVyTCp": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>{{ closest.collection.title }}</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "name": "t:names.collection_card_image",
+              "static": true,
+              "settings": {
+                "image_ratio": "square",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_LVyTCp"
+          ]
+        }
+      },
+      "block_order": [
+        "group_dwrQPd"
+      ],
+      "name": "t:names.collections_carousel",
+      "settings": {
+        "collection_list": [
+          "footwear",
+          "apparel",
+          "accessories"
+        ],
+        "layout_type": "grid",
+        "carousel_on_mobile": true,
+        "columns": 3,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
+        "bento_gap": 8,
+        "rows_gap": 8,
+        "max_collections": 4,
+        "icons_style": "chevron",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "gap": 12,
+        "color_scheme": "",
+        "padding-block-start": 48,
+        "padding-block-end": 48
       }
     }
   },
   "order": [
-    "1644343805ee64abb3",
-    "1643844841ba05cf2f",
-    "1643842447523fe33f",
-    "1644421346df795a22",
-    "16438231901e067872",
-    "1644421339d8f52f96",
-    "1558726998500",
-    "164384485758672817",
-    "1644344882ed191b9d",
-    "1562161575138"
+    "slideshow_TfhrGx",
+    "section_8fPXLk",
+    "divider_WDCL3k",
+    "product_list_FqX9Cx",
+    "collection_list_A7AHdQ",
+    "product_list_KmqBE6",
+    "collection_list_TjKkXP"
   ]
 }

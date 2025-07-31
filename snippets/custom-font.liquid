@@ -1,17 +1,9 @@
-<style>
-    {% if settings.custom_heading_font %}
+{% style %}
+    {% if custom_heading_font %}
         @font-face {
             font-display: swap;
             font-family: brandheader;
-            src: url("{{ 'Arial-BoldMT.woff2' | asset_url }}") format("woff2");
+            src: url("{{ 'Arial-BoldMT.woff2' | asset_url }}") format("woff2"); 
         }
     {% endif %}
-    
-    :root {
-        {% if settings.custom_heading_font %}
-            --heading-font-family: 'brandheader';
-        {% else %}
-            --heading-font-family: {{ settings.heading__font.family }};
-        {% endif %}
-    }
-</style>
+{% endstyle %}

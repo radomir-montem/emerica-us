@@ -1,26 +1,16 @@
-{% comment %}
-  @param item {Object}
-    Required to display unit prices, 'item' or 'line_item'
-  @param class {String}
-    CSS class names to add to unit price elements
-{% endcomment %}
+{%- doc -%}
+  Renders the unit price, including its measurement.
 
-{%- capture total_quantity -%}
-  <span class="{{ class | append: '-total-quantity' }}" data-total-quantity>{{ item.unit_price_measurement.quantity_value }}{{ item.unit_price_measurement.quantity_unit }}</span>
-{%- endcapture -%}
+  @param {object} price - The unit price (money or string).
+  @param {object} measurement - The unit_price_measurement object.
 
-{%- capture unit_price -%}
-  {%- if item.unit_price == 0 -%}
-    <span class="{{ class | append: '-amount' }}" data-unit-price-amount>{{ settings.free_price_text }}</span>
-  {%- else -%}
-    <span class="{{ class | append: '-amount money' }}" data-unit-price-amount>{{ item.unit_price | money }}</span>
-  {%- endif -%}
-{%- endcapture -%}
+  @example
+  {% render 'unit-price', price: variant.unit_price, measurement: variant.unit_price_measurement %}
 
-{%- capture unit_measure -%}
-  <span class="{{ class | append: '-measure' }}" data-unit-price-measure>{%- if item.unit_price_measurement.reference_value != 1 -%}{{ item.unit_price_measurement.reference_value }}{%- endif -%}{{ item.unit_price_measurement.reference_unit }}</span>
-{%- endcapture -%}
-
-{%- if item.unit_price_measurement -%}
-  <p class="{{ class }}">{{ 'products.item.price.price_per_unit_html' | t: total_quantity: total_quantity, unit_price: unit_price, unit_measure: unit_measure | strip_newlines }}</p>
-{%- endif -%}
+  @example
+  {% render 'unit-price', price: line_item.unit_price | money_with_currency, measurement: line_item.unit_price_measurement }
+{%- enddoc -%}
+<small class="unit-price">
+  <span class="visually-hidden">{{ 'accessibility.unit_price' | t }}</span>
+  {{ price | unit_price_with_measurement: measurement }}
+</small>

@@ -4,288 +4,48 @@ This file can be re-written at any time.
 {% endcomment %}
 
 {% include 'shogun-content-handler' %}
-<html class="no-js no-touch" lang="{{ shop.locale }}">
+<html class="no-js{% if request.design_mode %} shopify-design-mode{% endif %}" lang="{{ request.locale.iso_code }}">
   <head>
-  {% include "starapps-core" %}
+    {%- render 'stylesheets' -%}
 
-  <meta charset="utf-8">
-  <meta http-equiv="cleartype" content="on">
-  <meta name="robots" content="index,follow">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="{{ settings.shop_bg_color }}">
-  <link rel="canonical" href="{{ canonical_url }}">
-  
- {% if template != blank %}
-  <link rel="alternate" hreflang="en"    href="{{ canonical_url}}"/> 
-  <link rel="alternate" hreflang="en-gb" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}"/> 
-  <link rel="alternate" hreflang="en-us" href="{{ canonical_url }}"/>
-  <link rel="alternate" hreflang="en-ca" href="{{ canonical_url }}"/>
-  <link rel="alternate" hreflang="en-au" href="{{ canonical_url }}"/>
-  <link rel="alternate" hreflang="x-default" href="{{ canonical_url}}"/>
-  
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="fr-fr" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="de-de" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="es-es" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="pt-pt" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="it-it" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="de-at" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="hr-hr" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="cs-cz" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="da-dk" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="nl-nl" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="pl-pl" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="ro-ro" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="sv-se" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="sl-si" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="sk-sk" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="bg-bg" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="el-cy" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="et-ee" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="el-gr" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="hu-hu" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="ga-ie" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="en-ie" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="lv-lv" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="lt-lt" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="fr-lu" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="de-lu" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="mt-mt" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="en-mt" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="fi-fi" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="en-fi" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="nl-be" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="fr-be" />
-  <link rel="alternate" href="{{ canonical_url | replace: 'https://', 'https://eu.' }}" hreflang="de-be" />
+    {%- if settings.favicon != blank -%}
+      <link
+        rel="icon"
+        type="image/png"
+        href="{{ settings.favicon | image_url: width: 32, height: 32 }}"
+      >
+    {%- endif -%}
 
- 
-  
-  {% endif %}
-  
-  <meta name="google-site-verification" content="z_qQ5F6TPxhGzkRANAdNZ9OtFlWcIvGT2ZyaA-TEmec"/>
-  <meta name="google-site-verification" content="RJvduc3unsRVgT_Z9_uLRC11UTmi6tJNNLirAAONLc8"/>
-  
-  <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MCJ52V9');</script>
-  <!-- End Google Tag Manager -->
+    {% comment %} This a way to wait for main content to load when navigating to a new page so that the view transitions can work consistently {% endcomment %}
+    <link
+      rel="expect"
+      href="#MainContent"
+      blocking="render"
+      id="view-transition-render-blocker"
+    >
 
-  {%- if current_tags -%}{%- assign meta_tags = current_tags | join: ', ' -%}{%- endif -%}
-  <title>{%- if template.name == "index" -%}{{ page_title }}{%- else -%}{{ page_title }}{% if current_tags %} {{ 'general.meta.tagged_html' | t: tags: meta_tags }}{%- endif -%}{% if current_page != 1 %} {{ 'general.meta.page' | t: page_number: current_page }}{% endif %}{% unless page_title contains shop.name %} - {{ shop.name }}{% endunless %}{% endif %}</title>
+    {%- render 'meta-tags' -%}
+    {%- render 'fonts' -%}
+    {%- render 'scripts' -%}
+    {%- render 'theme-styles-variables' -%}
+    {%- render 'color-schemes' -%}
 
-  <!-- DNS prefetches -->
-  <link rel="dns-prefetch" href="https://cdn.shopify.com">
-  <link rel="dns-prefetch" href="https://fonts.shopify.com">
-  <link rel="dns-prefetch" href="https://monorail-edge.shopifysvc.com">
-  <link rel="dns-prefetch" href="https://ajax.googleapis.com">
-
-  {% if settings.enable_shopify_review_comments %}
-    <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
-  {% endif %}
-
-  <!-- Preconnects -->
-  <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.shopify.com" crossorigin>
-  <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
-  <link rel="preconnect" href="https://ajax.googleapis.com">
-
-  {% if settings.enable_shopify_review_comments %}
-    <link rel="preconnect" href="https://productreviews.shopifycdn.com">
-  {% endif %}
-
-  <!-- Preloads -->
-  <!-- Preload CSS -->
-  <link rel="preload" href="{{ 'fancybox.css' | asset_url }}" as="style">
-  <link rel="preload" href="{{ 'styles.css' | asset_url }}" as="style">
-
-  <!-- Preload JS -->
-  <link rel="preload" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" as="script">
-  <link rel="preload" href="{{ 'vendors.js' | asset_url }}" as="script">
-  <link rel="preload" href="{{ 'utilities.js' | asset_url }}" as="script">
-  <link rel="preload" href="{{ 'app.js' | asset_url }}" as="script">
-
-  {% if settings.show_multiple_currencies or shop.enabled_currencies.size > 1 %}
-    <link rel="preload" href="/services/javascripts/currencies.js" as="script">
-    <link rel="preload" href="{{ 'currencyConversion.js' | asset_url }}" as="script">
-  {% endif %}
-
-  {% if settings.enable_shipping_calculator and template.name == 'cart' %}
-    <link rel="preload" href="{{ 'shopify_common.js' | shopify_asset_url }}" as="script">
-    <link rel="preload" href="{{ 'api.jquery.js' | shopify_asset_url }}" as="script">
-    <link rel="preload" href="{{ 'countries.js' | shopify_asset_url }}" as="script">
-  {% endif %}
-
-  {%- if template.directory == 'customers' -%}
-  <link rel="preload" href="{{ 'shopify_common.js' | shopify_asset_url }}" as="script">
-  <link rel="preload" href="{{ 'customer_area.js' | shopify_asset_url }}" as="script">
-  {%- endif -%}
-
-  {% if settings.disqus_enabled %}
-    {% if template.name == "blog" or template.name == "article" or template.name == "index" %}
-      <link rel="preload" href="//{{ settings.disqus_shortname }}.disqus.com/count.js" as="script">
+    {% if request.design_mode %}
+      {%- render 'theme-editor' -%}
     {% endif %}
-  {% endif %}
 
-  <!-- CSS for Flex -->
-  <link rel="stylesheet" href="{{ 'fancybox.css' | asset_url }}">
-  <link rel="stylesheet" href="{{ 'styles.css' | asset_url }}">
-
-  {% comment %}Inject theme-object begin{% endcomment %}
-  <script>
-    window.Theme = window.Theme || {};
-    window.Theme.version = '3.0.0';
-    window.Theme.name = 'Flex';
-  </script>
-  {% comment %}Inject theme-object end{% endcomment %}
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
-  <script src="{{ 'vendors.js' | asset_url }}" defer></script>
-  <script src="{{ 'utilities.js' | asset_url }}" defer></script>
-  <script src="{{ 'app.js' | asset_url }}" defer></script>
-
-  {%- if settings.show_multiple_currencies or shop.enabled_currencies.size > 1 -%}
-    <script type="text/javascript" src="/services/javascripts/currencies.js"></script>
-    <script src="{{ 'currencyConversion.js' | asset_url }}" defer></script>
-  {%- endif -%}
-
-  <script>
-    {% render 'js-variables' %}
-  </script>
+    {{ content_for_header }}
   
-  {%- if settings.enable_shipping_calculator and template.name == "cart" -%}
-    <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer></script>
-    <script src="{{ 'api.jquery.js' | shopify_asset_url }}" defer></script>
-    <script src="{{ 'countries.js' | shopify_asset_url }}" defer></script>
-  {%- endif -%}
-
-  {%- if template.directory == 'customers' -%}
-    <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer></script>
-    <script src="{{ 'customer_area.js' | shopify_asset_url }}" defer></script>
-  {%- endif -%}
-  <!-- CSS for Slick -->
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <!-- JS for Slick -->
-  <script defer type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-  {% if settings.disqus_enabled %}
-    {% if template.name == "blog" or template.name == "article" or template.name == "index" %}
-      <script id="dsq-count-scr" src="//{{ settings.disqus_shortname }}.disqus.com/count.js" async></script>
-    {% endif %}
-  {% endif %}
-
-  <noscript>
-    <style>
-      /* Insert styles for styles when JS is not loaded */
-
-      .noscript {
-        display: block;
-      }
-
-    </style>
-  </noscript>
-  <script>
-    document.documentElement.className=document.documentElement.className.replace(/\bno-js\b/,'js');
-    if(window.Shopify&&window.Shopify.designMode)document.documentElement.className+=' in-theme-editor';
-    if(('ontouchstart' in window)||window.DocumentTouch&&document instanceof DocumentTouch)document.documentElement.className=document.documentElement.className.replace(/\bno-touch\b/,'has-touch');
-  </script>
-
-  {%- if page_description -%}
-    <meta name="description" content="{{ page_description | escape }}{% if current_tags %} {{ 'general.meta.tagged_html' | t: tags: meta_tags | escape }}.{% endif %}{% if current_page != 1 %} {{ 'general.meta.page' | t: page_number: current_page }}.{% endif %}" />
-  {%- endif -%}
-
-  {%- if settings.favicon != nil -%}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ settings.favicon | img_url: '180x180' }}">
-    <link rel="apple-touch-icon" href="{{ settings.favicon | img_url: '180x180' }}"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ settings.favicon | img_url: '57x57' }}"/>
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ settings.favicon | img_url: '60x60' }}"/>
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ settings.favicon | img_url: '72x72' }}"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ settings.favicon | img_url: '76x76' }}"/>
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ settings.favicon | img_url: '114x114' }}"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ settings.favicon | img_url: '180x180' }}"/>
-    <link rel="apple-touch-icon" sizes="228x228" href="{{ settings.favicon | img_url: '228x228' }}"/>
-  {%- else -%}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ 'favicon.png' | asset_url }}">
-  {%- endif -%}
-
-  {{ content_for_header }}
-
-  {% render 'social-meta-info' %}
-  {% if collection.previous_product %}<link rel="prev" href="{{ collection.previous_product }}">{% endif %}
-  {% if collection.next_product %}<link rel="next" href="{{ collection.next_product }}">{% endif %}
-  
-
-  {% if template.name == 'customers' %}
-    {{ "shopify_common.js" | shopify_asset_url | script_tag }}
-    {{ "customer_area.js"  | shopify_asset_url | script_tag }}
-  {% endif %}
-
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "s3vuaay6sn");
-</script>
-
   {% render 'shogun-head' %}
 </head>
-  <body>
+  <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
     {% include 'shogun-content-handler' %}
 
     
     
     {{ content_for_layout }}
     
-    <script type="text/javascript">
-// Overrides:
-// var afterpay_min = 1.00;       // As per your Afterpay contract.
-// var afterpay_max = 2000.00;    // As per your Afterpay contract.
-// var afterpay_msg_size = 'sm';  // Can be 'xs', 'sm', 'md' or 'lg'.
-// var afterpay_logo_theme = 'colour';  // Can be 'colour', 'black' or 'white'.
-// var afterpay_modal_open_icon = true;
-// var afterpay_hide_upper_limit = false;
-// var afterpay_hide_lower_limit = true;
-// var afterpay_show_if_outside_limits = true;
-// var afterpay_cbt_enabled = false;
-
-// var afterpay_product_integration_enabled = true;
-// var afterpay_product_selector = '#product-price-selector';
-  var afterpay_product_selector = ".afterpaymsg"
-// var afterpay_variable_price_fallback = false;
-// var afterpay_variable_price_fallback_selector = '';
-// var afterpay_variable_price_fallback_method = 'mutation';  // Can be 'mutation' or 'interval'.
-
-// var afterpay_cart_integration_enabled = true;
-// var afterpay_cart_static_selector = '#cart-subtotal-selector';
-// var afterpay_variable_subtotal_fallback = false;
-// var afterpay_variable_subtotal_fallback_selector = '';
-// var afterpay_variable_subtotal_fallback_method = 'mutation'; // Can be 'mutation' or 'interval'.
-// var afterpay_cart_dynamic_integration_enabled = false;
-
-// var afterpay_footer_logo_enabled = true;
-// var afterpay_footer_logo_format = 'icon';  // Can be 'icon', 'stacked' or 'logo'.
-// var afterpay_footer_logo_theme = 'colour'; // Can be 'colour', 'black' or 'white'.
-// var afterpay_footer_logo_background = 'border';  // Can be 'border' or 'transparent'.
-// var afterpay_footer_logo_container = 'footer ul.payment-icons';
-// var afterpay_footer_logo_template = '<li class="payment-icon"><object data="{logo_path}" type="image/svg+xml"></object></li>';
-
-// Non-editable fields:
-var afterpay_js_language = {{ localization.language.iso_code | json }};
-var afterpay_js_country = {{ localization.country.iso_code | json }};
-var afterpay_shop_currency = {{ shop.currency | json }};
-var afterpay_cart_currency = {{ cart.currency.iso_code | json }};
-var afterpay_shop_money_format = {{ shop.money_format | json }};
-var afterpay_shop_permanent_domain = {{ shop.permanent_domain | json }};
-var afterpay_theme_name = {{ theme.name | json }};
-var afterpay_product = {{ product | json }};
-var afterpay_current_variant = {{ product.selected_or_first_available_variant | json }};
-var afterpay_cart_total_price = {{ cart.total_price | json }};
-var afterpay_js_snippet_version = '1.1.2';
-</script>
-<script type="text/javascript" src="https://static.afterpay.com/shopify-afterpay-javascript.js"></script>
+    <script src="{{ 'critical.js' | asset_url }}"></script>
     <style type="text/css">
       body, html {
         width: 100% !important;
