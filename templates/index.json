@@ -427,11 +427,10 @@
           "name": "t:names.video",
           "settings": {
             "source": "url",
-            "video_url": "https://www.youtube.com/watch?v=6HEzuoFnxxw",
+            "video_url": "https://www.youtube.com/watch?v=6pKUMOKluHw",
             "video_autoplay": false,
             "video_loop": true,
-            "cover_image": "shopify://shop_images/Em-SU25-Promo-YoutubeThumbnail_copie.webp",
-            "alt": "Leo, Spanky, Figgy & Stu. Fire In Da Sky - An Emerica film by Matt King",
+            "alt": "Kevin \"Spanky\" Long Is Back!!! | The Nine Club",
             "custom_width": 100,
             "custom_width_mobile": 100,
             "aspect_ratio": "16/9",
