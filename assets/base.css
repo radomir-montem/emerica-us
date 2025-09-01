@@ -4116,3 +4116,18 @@ text-component {
   transform: none;
   box-shadow: none;
 }
+
+dialog.search-modal__content:has(#cloud-search-results) .predictive-search-form__content-wrapper {
+  display: none;
+}
+
+dialog.search-modal__content #cloud-search-results {
+  margin-left: -4px !important;
+  width: 672px !important;
+}
+
+dialog.search-modal__content:has(#cloud-search-results) predictive-search-component {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}

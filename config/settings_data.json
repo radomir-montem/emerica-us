@@ -711,7 +711,8 @@
       "/* 2 – Show the whole photo inside that square, no cropping */.product-card__media img,.card-gallery img,.product-media img {object-fit: contain !important;}",
       ".product-media-modal__toggle,.product__media-icon {display: none !important;}",
       "variant-swatch-king li .star-set-image {background-color: transparent !important;}",
-      "variant-swatch-king #swatch-option1 {display: none;"
+      "variant-swatch-king #swatch-option1 {display: none; }",
+      "predictive-search-component .resource-card__image {object-fit: contain;}"
     ]
   }
 }

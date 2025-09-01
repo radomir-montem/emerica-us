@@ -112,7 +112,7 @@
                   "settings": {
                     "text": "<h2><strong>{{ closest.product.title }}</strong></h2>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -132,23 +132,46 @@
                   },
                   "blocks": {}
                 },
-                "review_aiaXjH": {
-                  "type": "review",
-                  "name": "t:names.product_review_stars",
+                "price_7axE7f": {
+                  "type": "price",
+                  "name": "t:names.product_price",
                   "settings": {
-                    "stars_style": "shaded",
-                    "show_number": true,
-                    "rating_color": "primary",
-                    "type_preset": "paragraph",
-                    "alignment": "right"
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "type_preset": "h2",
+                    "width": "100%",
+                    "alignment": "right",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   },
                   "blocks": {}
                 }
               },
               "block_order": [
                 "text_rTPLMk",
-                "review_aiaXjH"
+                "price_7axE7f"
               ]
+            },
+            "review_B8WmM4": {
+              "type": "review",
+              "name": "t:names.product_review_stars",
+              "settings": {
+                "stars_style": "shaded",
+                "show_number": true,
+                "rating_color": "primary",
+                "type_preset": "paragraph",
+                "alignment": "left"
+              },
+              "blocks": {}
             },
             "text_TkDC7Q": {
               "type": "text",
@@ -254,29 +277,6 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "price_UN6aHJ": {
-                      "type": "price",
-                      "name": "t:names.product_price",
-                      "settings": {
-                        "show_sale_price_first": true,
-                        "show_installments": false,
-                        "show_tax_info": false,
-                        "type_preset": "h6",
-                        "width": "fit-content",
-                        "alignment": "left",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "color": "var(--color-foreground)",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
                     "alliance_pro_membership_price_Btt9DD": {
                       "type": "shopify://apps/alliance-pro/blocks/membership-price/da1619d2-ddc8-4b5b-b988-31a93f9fda3a",
                       "settings": {
@@ -289,7 +289,6 @@
                     }
                   },
                   "block_order": [
-                    "price_UN6aHJ",
                     "alliance_pro_membership_price_Btt9DD"
                   ]
                 }
@@ -494,6 +493,7 @@
           },
           "block_order": [
             "group_4kFUY6",
+            "review_B8WmM4",
             "text_TkDC7Q",
             "group_8fkkWP",
             "variant_picker_3Nha6V",
@@ -518,7 +518,10 @@
       "blocks": {
         "judge_me_reviews_review_widget_XLrQNc": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [

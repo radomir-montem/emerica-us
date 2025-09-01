@@ -14,10 +14,10 @@
       "blocks": {
         "slide_wLrAH4": {
           "type": "_slide",
-          "name": "Spanky Hi x Lottie",
+          "name": "Image",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/Em-WebsiteHomepageImage-SpankyHixLottie-1.jpg",
+            "image_1": "shopify://shop_images/Em-FW25-NewArrivals-Homepage-Desktop-2.webp",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -40,6 +40,7 @@
           "blocks": {
             "group_eiQerc": {
               "type": "group",
+              "name": "Text",
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
@@ -78,8 +79,9 @@
               "blocks": {
                 "text_TmNL3b": {
                   "type": "text",
+                  "name": "Headline",
                   "settings": {
-                    "text": "<h1><strong>Spanky Hi X Lottie.</strong></h1>",
+                    "text": "<h1><strong>New Arrivals</strong></h1>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -103,8 +105,9 @@
                 },
                 "text_k7PXGj": {
                   "type": "text",
+                  "name": "Sub Headline",
                   "settings": {
-                    "text": "<h3>Emerica and Mike Gigliotti Unveil the Spanky Hi X Lottie.</h3>",
+                    "text": "<h3>Check Out The Latest Footwear, Apparel & Accesories.</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -134,6 +137,7 @@
             },
             "group_x7nqUN": {
               "type": "group",
+              "name": "CTA",
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
@@ -170,27 +174,12 @@
                 "padding-inline-end": 48
               },
               "blocks": {
-                "button_gDJRTh": {
-                  "type": "button",
-                  "name": "Read Button",
-                  "settings": {
-                    "label": "Read",
-                    "link": "shopify://blogs/news/emerica-and-mike-gigliotti-unveil-the-spanky-hi-x-lottie",
-                    "open_in_new_tab": false,
-                    "style_class": "button-secondary",
-                    "width": "fit-content",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
-                  },
-                  "blocks": {}
-                },
                 "button_jRDFEp": {
                   "type": "button",
                   "name": "Shop Button",
                   "settings": {
-                    "label": "Shop",
-                    "link": "shopify://products/spanky-hi-x-lotties-black-6107000287-001",
+                    "label": "Shop Now",
+                    "link": "shopify://collections/footwear",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -202,7 +191,6 @@
                 }
               },
               "block_order": [
-                "button_gDJRTh",
                 "button_jRDFEp"
               ]
             }
@@ -217,7 +205,7 @@
           "name": "Mute.",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/Highres-Em-SP25-Mute-Instagram-Post-26.jpg",
+            "image_1": "shopify://shop_images/Highres-Em-SP25-Mute-Instagram-Post-26_copie_0516db01-cd69-4bda-9833-97272085ff2b.webp",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -440,8 +428,9 @@
           "settings": {
             "source": "url",
             "video_url": "https://www.youtube.com/watch?v=6HEzuoFnxxw",
-            "video_autoplay": true,
+            "video_autoplay": false,
             "video_loop": true,
+            "cover_image": "shopify://shop_images/Em-SU25-Promo-YoutubeThumbnail_copie.webp",
             "alt": "Leo, Spanky, Figgy & Stu. Fire In Da Sky - An Emerica film by Matt King",
             "custom_width": 100,
             "custom_width_mobile": 100,
@@ -617,7 +606,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h2><strong>Team Favorites.</strong></h2>",
+                "text": "<h2><strong>Team Favorites Skate Shoes.</strong></h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -889,7 +878,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h2><strong>Pro Shoes.</strong></h2>",
+                "text": "<h2><strong>Pro Skate Shoes.</strong></h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
