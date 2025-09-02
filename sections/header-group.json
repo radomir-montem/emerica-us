@@ -17,7 +17,7 @@
         "announcement_7L4q9p": {
           "type": "_announcement",
           "settings": {
-            "text": "Fast & Free Shipping On Orders $75+ | Free 30-Day Returns",
+            "text": "<strong>Fast & Free Shipping On Orders $75+ | Free 30-Day Returns</strong>",
             "link": "",
             "font": "var(--font-body--family)",
             "font_size": "0.625rem",
