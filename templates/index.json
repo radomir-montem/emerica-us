@@ -17,7 +17,7 @@
           "name": "Image",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/Em-FW25-NewArrivals-Homepage-Desktop-2.webp",
+            "image_1": "shopify://shop_images/Em-FW25-KSL3-Desktop-2-updated_revise.webp",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -81,7 +81,7 @@
                   "type": "text",
                   "name": "Headline",
                   "settings": {
-                    "text": "<h1><strong>New Arrivals</strong></h1>",
+                    "text": "<h1><strong>KSL III</strong></h1>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -107,7 +107,7 @@
                   "type": "text",
                   "name": "Sub Headline",
                   "settings": {
-                    "text": "<h3>Check Out The Latest Footwear, Apparel & Accesories.</h3>",
+                    "text": "<h3>Kevin Long's new signature pro shoe.</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -178,8 +178,8 @@
                   "type": "button",
                   "name": "Shop Button",
                   "settings": {
-                    "label": "Shop Now",
-                    "link": "shopify://collections/footwear",
+                    "label": "Available Now",
+                    "link": "shopify://collections/ksl-iii",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
