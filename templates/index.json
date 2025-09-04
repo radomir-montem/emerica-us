@@ -427,7 +427,7 @@
           "name": "t:names.video",
           "settings": {
             "source": "url",
-            "video_url": "https://www.youtube.com/watch?v=6pKUMOKluHw",
+            "video_url": "https://youtu.be/rhFbEmnPg3M?si=DQULLAmnhknOpO_d",
             "video_autoplay": false,
             "video_loop": true,
             "alt": "KSL III has arrived.",
