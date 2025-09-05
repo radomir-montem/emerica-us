@@ -56,9 +56,19 @@
         "padding-block-start": 40,
         "padding-block-end": 80
       }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "shogun-helper",
+    "main",
+    "shogun-optimizer"
   ]
 }
